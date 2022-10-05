@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>BMI Calculator | Sheha</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <table>
+        <thead>
+          <tr class="judul">
+            <th>Check Your BMI</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="judul2">Enter your weight and height below to check your BMI results</td>
+          </tr>
+          <tr>
+            <td>Put your weight in here (kg)</td>
+          </tr>
+          <tr>
+            <td><input type="text" id="weight" /></td>
+          </tr>
+          <tr>
+            <td>And your height in here (cm)</td>
+          </tr>
+          <tr>
+            <td><input type="text" id="height" /></td>
+          </tr>
+          <tr>
+            <td><button onclick="hitung()">Calculate BMI</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td id="bmi">Your BMI is</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <script type="text/javascript" src="programBMI.js"></script>
+  </body>
+</html>
